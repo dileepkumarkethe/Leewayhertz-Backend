@@ -3,7 +3,8 @@ import * as mongoose from 'mongoose';
 export class Db {
 
     public static connect() {
-        let dbUrl = 'mongodb+srv://leeway-backend:leeway@cluster0.dh9bz.mongodb.net/test?retryWrites=true&w=majority',
+        let dbUrl = 'mongodb+srv://leeway-backend:Kingskethe@1@cluster0.wugxb.mongodb.net/test?retryWrites=true&w=majority',
+           
             opts = {
                 useNewUrlParser: true,
                 useUnifiedTopology: true,
